@@ -49,7 +49,7 @@ class LedScreen(GridLayout):
         self.add_widget(exit_button)
 
 
-    def exit_app(self):
+    def exit_app(self, widget):
         App.get_running_app().stop()
 
 
